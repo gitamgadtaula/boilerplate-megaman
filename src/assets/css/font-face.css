@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futura-pt/FuturaBT-Medium.woff2') format('woff2'),
+        url('../fonts/futura-pt/FuturaBT-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futura-pt/FuturaBT-Book.woff2') format('woff2'),
+        url('../fonts/futura-pt/FuturaBT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futura-pt/FuturaPTBold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Futura PT';
+    src: url('../fonts/futura-pt/FuturaPTDemi.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face{
+    font-family: "ProximaNova";
+    src: url('../fonts/proxima-nova/Proxima-Nova-Font.woff2') format("woff2");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+
