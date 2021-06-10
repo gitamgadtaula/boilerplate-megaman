@@ -1,0 +1,118 @@
+.landing_main{
+    position: relative;
+    /* padding-top:0px; */
+    background-size:cover;
+    filter: blur(0px);
+    text-align: left;
+    z-index: 1;
+}
+.landing-main-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -100;
+    background-color: #1f1d29; 
+}
+.landing-main-bg img{
+    opacity: 0.5;
+    position: absolute;
+    object-fit: cover;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.landing_main .row{
+    width: 75%;
+    padding:50px 0 180px 0;
+}
+.landing_main .row .title{
+    padding-top:140px;
+    /* margin-bottom: 2rem; */
+}
+.landing_main .row .title p{
+    font-size:2vw;
+    max-width: 100%;
+    visibility: visible;
+    color:#fff;
+    font-family: 'Futura PT';
+    font-weight: 500;
+
+}
+.landing_main .row .detail p{
+    font-size: 1.375rem;
+    margin-bottom:30px !important;
+    line-height: 1.8;
+}
+.token-address{ 
+    font-size:16px;
+    margin-bottom:10px;
+    word-break: break-all;
+}
+
+.token-button button{
+    font-family: 'Futura PT';
+    font-size:14px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    color:#fff;
+    border-radius: 3px;
+    position: relative;
+    padding: 13.5px 25px;
+    border:0;
+    margin: 3px 10px 0 10px;
+    transform: skewX(-4deg);
+}
+.token-button button:focus{
+    color:#d31c3e !important;
+    box-shadow: unset !important;
+}
+.token-button button:hover{
+    background: #fff !important;
+}
+.purchase{
+    background: #195e9a !important;
+    margin-left:0 !important;
+    padding-right: 50px !important;
+}
+.purchase:hover{
+    color:#195e91 !important;
+}
+.emoji{
+    max-width: 11%;
+    position: absolute;
+    top: 14px;
+    right: 25px;
+}
+.whitepaper{
+    background: #d31c3e !important; 
+}
+.whitepaper:hover{
+    color: #15112b !important;
+}
+
+@media only screen and (max-width: 991px){
+    .landing_main .row{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 575px){
+    .landing_main .row{
+        padding:50px 0px 180px 0px;
+        text-align: center;
+        margin-left:0;
+        margin-right: 0;
+    }
+   .whitepaper{
+       margin-top:10px !important;
+   }
+}

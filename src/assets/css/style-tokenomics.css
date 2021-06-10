@@ -1,0 +1,164 @@
+.container-fluid{
+    background: #1f1d29;
+    padding-bottom:20px;
+}
+
+.transaction {
+    position: relative;
+    padding: 100px 0;
+}
+.transaction .number{
+    font-family: "Futura PT";
+    font-weight: 600;
+    font-size:32px;
+    color:#fff;
+}
+.transaction .title{
+    font-size:14px;
+    padding-top:8px;
+}
+.transaction .row{
+    width: 100%;
+}
+.transaction .update{
+    font-size:10px;
+    margin-top:25px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600;
+}
+.transaction-detail{
+    background-color: #282535;
+    border-radius:5px;
+    padding:30px;
+}
+.transaction-detail .title{
+    display: flex;
+    justify-content: space-between;    
+    min-height: 60px;
+    padding-left:80px;
+    padding-top:8px;
+    position: relative;
+}
+.tokenomics-logo{
+   position: absolute;
+   display: block;
+   top:0;
+   left:0;
+   text-align: center; 
+   width: 60px;
+   height: 60px;
+   overflow: hidden;
+   border-radius: 100%;
+   background-color: #1f1d29;
+}
+.tokenomics-logo img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:-9px;
+
+}
+.transaction-detail .heading h5{
+    font-size:18px;
+    color:#fff;
+    font-family: 'Futura PT';
+    font-weight: 500;
+    margin-bottom: 2px;
+    text-align: left;
+}
+.transaction-detail .heading span{
+    font-size:14px;
+    color: #827f92;
+}
+
+.ownership span{
+    font-size: 14px;
+    color: #827f92;
+}
+.transaction-detail .details{
+    margin-top: 25px;
+    display: flex;
+}
+
+.transaction-detail .details li{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size:16px;
+    font-weight:500;
+}
+.transaction-detail .details .row{
+    width: 50%;
+    padding: 0 50px;
+}
+.transaction-detail .details .row:first-child{
+    padding-left:0px;
+}
+.autolocking{
+    background-color:#1f1d29;
+    padding:25px 30px; 
+    margin-top:25px;
+    font-size:14px;
+    border-radius:5px;
+    margin-bottom:40px;
+    text-align: left;
+    color:#75BADB;
+}
+.autolocking .highlight{
+    color: #827f92;
+}
+@media only screen and (max-width:991px){
+    .transaction-detail .details{
+        flex-direction: column;
+    }
+    .transaction-detail .details .row{
+        width: 100%;
+    }
+    .transaction-detail .details .row:first-child{
+        padding-left:50px;
+    }
+    .transaction-detail .details ul{
+        margin-bottom:0;
+    }
+}
+@media only screen and (max-width:767px){
+    .transaction-detail .details .row:first-child{
+        padding-left: 10px;
+    }
+    .transaction-detail .details .row{
+        padding:0 10px;
+    }
+    .transaction-detail .title{
+        flex-wrap:wrap;
+        padding-left:0;
+    }
+    .heading{
+        order: 2;
+        padding-left: 80px;
+    }
+    .ownership{
+        order:1;
+        width:100%;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .tokenomics-logo{
+        top:50px;
+    }
+}
+@media only screen and (max-width:575px){
+  .transaction-detail .details .row:first-child{
+    padding-left: 0px;
+}
+.transaction-detail .details .row{
+    padding:0px;
+}
+.transaction-detail .details ul li{
+    flex-direction: column;
+    text-align: left;
+}
+.autolocking{
+    text-align: center;
+}
+}

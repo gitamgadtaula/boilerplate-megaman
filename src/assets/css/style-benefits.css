@@ -1,0 +1,74 @@
+.benefits{
+    position: relative;
+    padding: 160px 0;
+    background-color: #211f2c;
+}
+h2{
+    margin-bottom: 60px !important;
+    color: #fff;
+    font-family: 'Futura PT';
+    font-weight: 500;
+}
+.benefits .row .col{
+    padding-bottom:30px;
+}
+.benefits .row .col-12, .benefits .row .col-lg-4, .benefits .row .col-md-6
+.benefits .row .features{
+    
+    padding-bottom: 30px;
+}
+.features{
+    background: transparent;
+    position: relative;
+    display: inline-block;
+    padding:40px 30px;
+    overflow: visible;
+    z-index: 1;
+    height: 100%;
+}
+.features::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #282535;
+    border-radius:4px;
+    transform: skew(-2deg);
+    z-index: -1;
+    box-sizing: border-box;
+    transition: background-color .20 ease-in-out;
+    
+}
+.features:hover::before{
+    background-color: #2d293b;
+}
+.features .icon{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 100%;
+    margin-bottom: 26px;
+}
+.features .icon img{
+    width: 50px;
+    height: 50px;
+}
+.features .text{
+    min-height: 140px;
+}
+.features .title h4{
+    margin-bottom:20px;
+    font-family: 'Futura PT';
+    font-weight: 500;
+    font-size:21px;
+    color: #fff;
+}
+.features .action{
+    color:#75BADB;
+    font-size:10px;
+}

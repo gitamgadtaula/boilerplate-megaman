@@ -1,0 +1,46 @@
+.gamification{
+    position: relative;
+    padding: 160px 0;  
+    text-align: left;  
+    z-index: 1;
+    /* min-height: 650px;; */
+}
+
+.gamify-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    z-index: -100;
+    background-color: #1f1d29;
+}
+.gamify-bg img{
+    opacity: 0.2;
+    position: absolute;
+    object-fit: cover;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.gamification .row h2{
+    text-transform: uppercase;
+    font-size:40px;
+    margin-bottom: 32px !important;
+    font-family: 'Futura PT';
+}
+.gamification p{
+    margin-bottom:40px;
+}
+
+@media only screen and (max-width:575px){
+    .gamification{
+        text-align: center;
+    }
+}
